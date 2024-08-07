@@ -9,5 +9,5 @@ Python 3.12 has an issue with imp being deprecated ... for now just revert to 3.
 
 When building run:
 ```
-jazzy_ws colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-skip python_orocos_kdl_vendor rviz_rendering rviz_rendering_tests
+colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-skip python_orocos_kdl_vendor rviz_rendering rviz_rendering_tests
 ```
