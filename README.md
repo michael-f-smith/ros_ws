@@ -11,3 +11,7 @@ When building run:
 ```
 colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-skip python_orocos_kdl_vendor rviz_rendering rviz_rendering_tests
 ```
+
+
+### Helpful links:
+https://nu-msr.github.io/navigation_site/lectures/cmake_basics.html
