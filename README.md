@@ -18,3 +18,7 @@ https://nu-msr.github.io/navigation_site/lectures/cmake_basics.html
 
 # Building packages with cmake output
 colcon build --symlink-install --event-handlers console_direct+ --cmake-args -DCMAKE_VERBOSE_MAKEFILE=ON
+
+
+# For python_orocos
+https://github.com/orocos/orocos_kinematics_dynamics/archive/refs/tags/v1.5.1.zip
