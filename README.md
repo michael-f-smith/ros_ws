@@ -15,3 +15,6 @@ colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packag
 
 ### Helpful links:
 https://nu-msr.github.io/navigation_site/lectures/cmake_basics.html
+
+# Building packages with cmake output
+colcon build --symlink-install --event-handlers console_direct+ --cmake-args -DCMAKE_VERBOSE_MAKEFILE=ON
