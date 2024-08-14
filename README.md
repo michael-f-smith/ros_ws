@@ -39,4 +39,4 @@ kdl_parser runs into issues with Eigen/Core in jacobian.hpp
 tf2_py fails as a result of not finding catkin_pkg which is installed via pip in anaconda
 
 
-colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-skip kdl_parser tf2_eigen_kdl tf2_py
+colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-skip kdl_parser tf2_eigen_kdl tf2_py robot_state_publisher tf2_sensor_msgs tf2_geometry_msgs tf2_kdl
