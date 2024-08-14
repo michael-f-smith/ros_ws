@@ -33,3 +33,9 @@ https://github.com/orocos/orocos_kinematics_dynamics/archive/refs/tags/v1.5.1.zi
     #     ${CMAKE_CURRENT_SOURCE_DIR}/patches/0001-fix-windows-debug.patch
   )
 ```
+kdl_parser runs into issues with Eigen/Core in jacobian.hpp
+
+tf2_py fails as a result of not finding catkin_pkg which is installed via pip in anaconda
+
+
+colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-skip kdl_parser tf2_eigen_kdl tf2_py
