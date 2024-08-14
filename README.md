@@ -34,6 +34,7 @@ https://github.com/orocos/orocos_kinematics_dynamics/archive/refs/tags/v1.5.1.zi
   )
 ```
 kdl_parser runs into issues with Eigen/Core in jacobian.hpp
+** Also need to look into how to point the kdl headers from orocos_kdl_vendor to kdl_parser s
 
 tf2_py fails as a result of not finding catkin_pkg which is installed via pip in anaconda
 
