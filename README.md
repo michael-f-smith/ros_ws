@@ -38,6 +38,8 @@ kdl_parser runs into issues with Eigen/Core in jacobian.hpp
 
 tf2_py fails as a result of not finding catkin_pkg which is installed via pip in anaconda
 
+If rviz_rendering fails https://github.com/ros2/ros2/issues/1222
+
 
 colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-skip kdl_parser tf2_eigen_kdl tf2_py robot_state_publisher tf2_sensor_msgs tf2_geometry_msgs tf2_kdl tf2_ros_py tf2_tools examples_tf2_py dummy_robot_bringup interactive_markers test_tf2 geometry2 rviz_default_plugins rviz2
 
