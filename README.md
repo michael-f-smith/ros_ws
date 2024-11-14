@@ -20,6 +20,11 @@ https://nu-msr.github.io/navigation_site/lectures/cmake_basics.html
 colcon build --symlink-install --event-handlers console_direct+ --cmake-args -DCMAKE_VERBOSE_MAKEFILE=ON
 
 
+# Install catkin_pkg
+```
+conda install catkin_pkg
+```
+
 # For python_orocos
 
 
