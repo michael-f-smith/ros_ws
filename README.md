@@ -21,6 +21,11 @@ colcon build --symlink-install --event-handlers console_direct+ --cmake-args -DC
 
 
 # For python_orocos
+
+## Ignore the following ... just run the following instead:
+```
+conda install conda-forge::python-orocos-kdl
+```
 https://github.com/orocos/orocos_kinematics_dynamics/archive/refs/tags/v1.5.1.zip
 ```
   # This version must match orocos_kdl_vendor exactly
