@@ -8,7 +8,7 @@ Python 3.12 has an issue with imp being deprecated ... for now just revert to 3.
 
 ## May be able to follow this for resolving above:
 ```
-https://stackoverflow.com/questions/77364550/attributeerror-module-pkgutil-has-no-attribute-impimporter-did-you-mean
+# https://stackoverflow.com/questions/77364550/attributeerror-module-pkgutil-has-no-attribute-impimporter-did-you-mean
 python -m ensurepip --upgrade
 python -m pip install --upgrade setuptools
 ```
@@ -36,6 +36,7 @@ conda install catkin_pkg
 
 ```
 conda install conda-forge::python-orocos-kdl
+# May need to rm -rf build and install of python-orocos-kdl and rebuild
 ```
 ## Ignore the following ... just run the above instead:
 https://github.com/orocos/orocos_kinematics_dynamics/archive/refs/tags/v1.5.1.zip
