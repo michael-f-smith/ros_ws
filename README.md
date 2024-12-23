@@ -6,6 +6,12 @@ ROS2 Setup for Mac: https://docs.ros.org/en/jazzy/Installation/Alternatives/macO
 
 Python 3.12 has an issue with imp being deprecated ... for now just revert to 3.11
 
+## May be able to follow this for resolving above:
+```
+https://stackoverflow.com/questions/77364550/attributeerror-module-pkgutil-has-no-attribute-impimporter-did-you-mean
+python -m ensurepip --upgrade
+python -m pip install --upgrade setuptools
+```
 
 When building run:
 ```
